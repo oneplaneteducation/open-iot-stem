@@ -14,5 +14,4 @@ The bsec LIB needs to be at (1.4.703).
 As well the Adafruit Bluefruit nrf51 library through the library manager.
 
 Specifically the Rak nrf (0.21.20) board version.
-
 #https://forum.rakwireless.com/t/just-updated-nrf-boards-for-rak-4631-broke-my-code/5189/2
