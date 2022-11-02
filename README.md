@@ -5,12 +5,12 @@ One Planet Education Network IoT STEM Education Kit
 Arduino work through for Rak 4630/4631
 For all this to work in Arduino you need to hav:
 
-Adafruit NRF utility installed through PIP (Python3).
+Adafruit nrf utility installed through PIP (Python3).
 https://github.com/adafruit/Adafruit_nRF52_nrfutil
 
 All of the Adafruit board definitions in the sketch through the library manager.
 
-The bsec LIB needs to be at (1.4.703).
+The bsec library needs to be at (1.4.703).
 
 As well the Adafruit Bluefruit nrf51 library through the library manager.
 
