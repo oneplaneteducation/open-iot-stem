@@ -1,25 +1,40 @@
 function Decoder(bytes, port) {
-  // Decode an uplink message from a buffer
-  // (array) of bytes to an object of fields.
-  var decoded = {};
 
-  // if (port === 1) decoded.led = bytes[0];function Decoder(bytes, port) {
-  var TEMP    = (bytes[1] << 8)  + bytes[2];
-  var HUM     = (bytes[3] << 8)  + bytes[4];  
-  var PRESS   = (bytes[5] <<24) + (bytes[6] <<16) + (bytes[7] <<8)   + bytes[8];
-  var ALTI    = (bytes[9] <<24) + (bytes[10] <<16) + (bytes[11] <<8)   + bytes[12];
-  var GASI    = (bytes[9] <<24) + (bytes[10] <<16) + (bytes[11] <<8)   + bytes[12];
-  var IAQQ    = (bytes[9] <<24) + (bytes[10] <<16) + (bytes[11] <<8)   + bytes[12];
-  var C02     = (bytes[9] <<24) + (bytes[10] <<16) + (bytes[11] <<8)   + bytes[12];
+    let result = "";
+    
+    for (var i = 0; i < bytes.length; i++) {
+      if (bytes[i] < 10) {
+        result += 0;
+        result += bytes[i];
+      }else{
+        result += bytes[i];
+      }
+    }
+    
+    let temp = result.slice(0, 4);
+    let press = result.slice(4, 8);
+    let humidity = result.slice(8, 10);
+    let iaq_accuracy = result.slice(10, 11); 
+    
+    let static_iaq; 
+    if (result.slice(11, 12) == "0" ) 
+    {
+       static_iaq = result.slice(12, 14);
+    }
+    else
+    {
+       static_iaq = result.slice(11, 14);
+    }
+    
+    let co2 = result.slice(14);
   
-  return {
-  Temperature:     TEMP,
-  Humidity:        HUM,
-  Pressure:        PRESS,
-  ALTI:            ALTI,
-  GASI:            GASI,
-  IAQQ:            IAQQ,
-  C02;             CO2,
-  };
-  
-}
+    
+    return {
+      field1: temp/100, 
+      field2: press,
+      field3: humidity,
+      field4: iaq_accuracy,
+      field5: static_iaq,
+      field6: co2*10
+    };
+  }
