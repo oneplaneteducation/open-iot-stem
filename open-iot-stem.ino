@@ -491,7 +491,7 @@ void bme680_get()
 
     uint16_t t = temp * 100;
     uint16_t h = hum * 100;
-    uint32_t a = alti * 100;
+    uint32_t a = (alti +1000) * 100;
     uint32_t aq = iaqq * 100;
     uint32_t co = co2 * 100;
 
