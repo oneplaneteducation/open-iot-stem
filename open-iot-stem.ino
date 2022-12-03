@@ -1,9 +1,9 @@
 /**
    @file EnvironMeter.ino
-   @author rakwireless.com
-   @brief This sketch demonstrate reading data from a RAK1906 Environment Sensor and send it to cellphone through BLE.
-   @version 0.1
-   @date 2022-01-17
+   @author Christopher Mendez @ RAKwireless
+   @brief This sketch demonstrate reading data from a RAK1906 Environment Sensor and send it to cellphone through BLE and LoRaWAN using the Helium Network.
+   @version 0.2
+   @date 2022-12-02
 
    @copyright Copyright (c) 2022
  **/
@@ -17,7 +17,7 @@
 // Helper functions declarations
 void checkIaqSensorStatus(void);
 void errLeds(void);
-float readAltitude(float readPres, float seaLevel);
+
 
 // Forward declarations for functions
 void ble_connect_callback(uint16_t conn_handle);
@@ -43,19 +43,16 @@ BLEUart g_BleUart;
 /** Flag if BLE UART client is connected */
 bool g_BleUartConnected = false;
 
-U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0);
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R2); // U8G2_R0 flip the screen
 
 // Sensor data
 String sensordata1, sensordata2;
 
-// float temp, pres, hum, alti, gasi, iaqq, co2;
+// float temp, pres, hum, iaqq, co2;
 
-double temp, pres, hum, alti, gasi, iaqq, co2;
+double temp, pres, hum, iaqq, co2;
 
 char data[32] = {0};
-
-// Might need adjustments
-#define SEALEVELPRESSURE_HPA (1013.25)
 
 // Create an object of the class Bsec
 Bsec iaqSensor;
@@ -69,7 +66,7 @@ bool doOTAA = true;                                               // OTAA is use
 #define LORAWAN_TX_POWER TX_POWER_0                               /*LoRaMac tx power definition, from TX_POWER_0 to TX_POWER_15*/
 #define JOINREQ_NBTRIALS 5                                        /**< Number of trials for the join request. */
 DeviceClass_t g_CurrentClass = CLASS_A;                           /* class definition*/
-LoRaMacRegion_t g_CurrentRegion = LORAMAC_REGION_AU915;           /* Region:US915*/
+LoRaMacRegion_t g_CurrentRegion = LORAMAC_REGION_US915;           /* Region:US915 | select the one of your country*/
 lmh_confirm g_CurrentConfirm = LMH_UNCONFIRMED_MSG;               /* confirm/unconfirm packet definition*/
 uint8_t gAppPort = LORAWAN_APP_PORT;                              /* data port*/
 
@@ -185,6 +182,9 @@ void setup(void)
     // Initialize the built in LED
     pinMode(LED_BUILTIN, OUTPUT);
     digitalWrite(LED_BUILTIN, LOW);
+
+    pinMode(WB_IO2, OUTPUT);
+    digitalWrite(WB_IO2, LOW);
 
     Serial.begin(115200);
     Wire.begin();
@@ -306,20 +306,20 @@ void setup(void)
     Serial.println(output);
     checkIaqSensorStatus();
 
-    bsec_virtual_sensor_t sensorList[10] = {
-        BSEC_OUTPUT_RAW_TEMPERATURE,
+    bsec_virtual_sensor_t sensorList[5] = {
+        //BSEC_OUTPUT_RAW_TEMPERATURE,
         BSEC_OUTPUT_RAW_PRESSURE,
-        BSEC_OUTPUT_RAW_HUMIDITY,
-        BSEC_OUTPUT_RAW_GAS,
+        //BSEC_OUTPUT_RAW_HUMIDITY,
+        //BSEC_OUTPUT_RAW_GAS,
         BSEC_OUTPUT_IAQ,
-        BSEC_OUTPUT_STATIC_IAQ,
+        //BSEC_OUTPUT_STATIC_IAQ,
         BSEC_OUTPUT_CO2_EQUIVALENT,
-        BSEC_OUTPUT_BREATH_VOC_EQUIVALENT,
+        //BSEC_OUTPUT_BREATH_VOC_EQUIVALENT,
         BSEC_OUTPUT_SENSOR_HEAT_COMPENSATED_TEMPERATURE,
         BSEC_OUTPUT_SENSOR_HEAT_COMPENSATED_HUMIDITY,
     };
 
-    iaqSensor.updateSubscription(sensorList, 10, BSEC_SAMPLE_RATE_LP);
+    iaqSensor.updateSubscription(sensorList, 5, BSEC_SAMPLE_RATE_LP);
     checkIaqSensorStatus();
 }
 
@@ -357,15 +357,13 @@ void loop(void)
     { // If new data is available
         temp = iaqSensor.temperature;
         hum = iaqSensor.humidity;
-        pres = iaqSensor.pressure;
-        alti = readAltitude(pres, SEALEVELPRESSURE_HPA);
-        gasi = iaqSensor.gasResistance / 1000;
+        pres = iaqSensor.pressure / 100.0;
         iaqq = iaqSensor.iaq;
         co2 = iaqSensor.co2Equivalent;
 
-        sensordata1 = "1," + String(temp) + "," + String(hum, 1) + "," + String(alti, 1);
+        sensordata1 = "1," + String(temp) + "," + String(hum, 1) + "," + String(pres, 1);
         sensordata2 = "2," + String(iaqq, 0) + "," + String(co2, 0);
-        // sensordata = String(temp);
+
         //  Get a raw ADC reading
         vbat_mv = readVBAT();
 
@@ -412,7 +410,8 @@ void lorawan_has_joined_handler(void)
 
     u8g2.drawStr(20, 39, "Joined");
     u8g2.sendBuffer(); // transfer internal memory to the display
-    // delay(2000);
+
+    delay(2000);
 
     lmh_error_status ret = lmh_class_request(g_CurrentClass);
     if (ret == LMH_SUCCESS)
@@ -491,7 +490,7 @@ void bme680_get()
 
     uint16_t t = temp * 100;
     uint16_t h = hum * 100;
-    uint32_t a = (alti +1000) * 100;
+    uint32_t p = pres * 100;
     uint32_t aq = iaqq * 100;
     uint32_t co = co2 * 100;
 
@@ -501,10 +500,10 @@ void bme680_get()
     m_lora_app_data.buffer[i++] = (uint8_t)t;
     m_lora_app_data.buffer[i++] = (uint8_t)(h >> 8);
     m_lora_app_data.buffer[i++] = (uint8_t)h;
-    m_lora_app_data.buffer[i++] = (uint8_t)((a & 0xFF000000) >> 24);
-    m_lora_app_data.buffer[i++] = (uint8_t)((a & 0x00FF0000) >> 16);
-    m_lora_app_data.buffer[i++] = (uint8_t)((a & 0x0000FF00) >> 8);
-    m_lora_app_data.buffer[i++] = (uint8_t)(a & 0x000000FF);
+    m_lora_app_data.buffer[i++] = (uint8_t)((p & 0xFF000000) >> 24);
+    m_lora_app_data.buffer[i++] = (uint8_t)((p & 0x00FF0000) >> 16);
+    m_lora_app_data.buffer[i++] = (uint8_t)((p & 0x0000FF00) >> 8);
+    m_lora_app_data.buffer[i++] = (uint8_t)(p & 0x000000FF);
     m_lora_app_data.buffer[i++] = (uint8_t)((aq & 0xFF000000) >> 24);
     m_lora_app_data.buffer[i++] = (uint8_t)((aq & 0x00FF0000) >> 16);
     m_lora_app_data.buffer[i++] = (uint8_t)((aq & 0x0000FF00) >> 8);
@@ -581,7 +580,7 @@ void displaying()
     u8g2.drawStr(3, 23, data);
 
     memset(data, 0, sizeof(data));
-    sprintf(data, "A:%.2f m", alti);
+    sprintf(data, "P:%.2f mbar", pres);
     u8g2.drawStr(3, 36, data);
 
     memset(data, 0, sizeof(data));
@@ -595,8 +594,3 @@ void displaying()
     u8g2.sendBuffer(); // transfer internal memory to the display
 }
 
-float readAltitude(float readPres, float seaLevel)
-{
-    float atmospheric = readPres / 100.0F;
-    return 44330.0 * (1.0 - pow(atmospheric / seaLevel, 0.1903));
-}
