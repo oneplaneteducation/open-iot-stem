@@ -12,7 +12,7 @@ https://github.com/adafruit/Adafruit_nRF52_nrfutil
 
 All of the Adafruit board definitions in the sketch through the library manager.
 
-The bsec library needs to be at (1.4.703).
+The bsec library should be at (1.8.1492).
 
 As well as the Adafruit Bluefruit nrf51 library through the library manager.
 
