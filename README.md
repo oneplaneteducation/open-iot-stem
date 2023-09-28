@@ -10,11 +10,6 @@ For all this to work in Arduino you need to have:
 Adafruit nrf utility installed through PIP (Python3).
 https://github.com/adafruit/Adafruit_nRF52_nrfutil
 
-All of the Adafruit board definitions in the sketch through the library manager.
+All of the Adafruit board definitions in the sketch are installed via library manager.
 
-The bsec library should be at (1.8.1492).
-
-As well as the Adafruit Bluefruit nrf51 library through the library manager.
-
-Specifically the Rak nrf (0.21.20) board version.
-https://forum.rakwireless.com/t/just-updated-nrf-boards-for-rak-4631-broke-my-code/5189/2
+Adafruit Bluefruit nrf51 library installed via library manager.
