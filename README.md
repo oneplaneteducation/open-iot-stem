@@ -23,7 +23,8 @@ The following are a list of **requirements** for the training session
 - Workstation computer:
     - Windows 64 bit – 10 or newer
     - MacOS 64 bit - 10.14 mojave or newer 
-    - Linux 64 bit 
+    - Linux 64 bit
+    - User has adminstrator privileges for the local workstation 
 - Internet connectivity:
     - Web or http access to the internet (port 443 and 80 unrestricted)
     - File downloads unrestricted
