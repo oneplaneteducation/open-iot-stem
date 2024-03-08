@@ -17,7 +17,7 @@ The following are a list of **requirements** for the training session
 
 - Video conferencing: 
    *At minium 2 video conferencing devices*
-	- Primary video conference device that is able to share the screen of the workstation computer
+	- Primary video conference device that is able to share the screen of the workstation computer and communicate with the team
 	- Hand held or mobile device to show the assembly of the IoT
    	- It is preferred to mute the sound on all devices other than the primary video to avoid interference
 - Workstation computer:
