@@ -37,6 +37,7 @@ The following are a list of **recommendations** for the training session but are
 - Disable all cloud syncronization via iCloud MSLive or OneDrive
 
 ## Installation
+### Repository
 - Obtain a copy of this repository using one of the following methods
 - Download a compressed copy ZIP
   - Click the green CODE button at the top
@@ -46,16 +47,18 @@ The following are a list of **recommendations** for the training session but are
   - Uncompress the ZIP by double clicking the file
   - The file will extract to the same directory *../USER/Downloads* by default
   - Navigate to the extracted folder and open it for later use
-- Install Arduino interactive desktop environment (IDE)
+### Code Workspace 
+- Arduino interactive desktop environment (IDE)
   - Download
   - Update Boards
   - Update libs
-- Update LoRaWAN secrets and keys
-- Compile and build code
-- Flash device
+## Coding
+- Add LoRaWAN secrets and keys
+- Compile and build 
+- Flash program device
 - ?LoRaWAN integration?
 - Verify and debug
-  - Check Serial
-  - ?Check LoRaWAN dashboard and integrations?
-    
-
+  - Serial data
+    - GPS data
+    - Sensor data
+  
