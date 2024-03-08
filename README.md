@@ -53,9 +53,9 @@ The following are a list of **recommendations** for the training session but are
 - Update LoRaWAN secrets and keys
 - Compile and build code
 - Flash device
-- LoRaWAN integration
+- ?LoRaWAN integration?
 - Verify and debug
   - Check Serial
-  - Check LoRaWAN dashboard and integrations
+  - ?Check LoRaWAN dashboard and integrations?
     
 
