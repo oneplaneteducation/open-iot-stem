@@ -57,8 +57,9 @@ The following are a list of **recommendations** for the training session but are
 - Compile and build 
 - Flash program device
 - ?LoRaWAN integration?
-- Verify and debug
-  - Serial data
-    - GPS data
-    - Sensor data
+## Verification
+- Serial terminal
+  - GPS data
+  - Sensor data
+## Debug and troubleshooting
   
