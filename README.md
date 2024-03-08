@@ -62,4 +62,5 @@ The following are a list of **recommendations** for the training session but are
   - GPS data
   - Sensor data
 ## Debug and troubleshoot
+*Check the following only if **Verification** is unsuccessful*
   
