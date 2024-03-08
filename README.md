@@ -61,6 +61,6 @@ The following are a list of **recommendations** for the training session but are
 - Serial terminal
   - GPS data
   - Sensor data
-## Debug and troubleshoot
+## Debug
 *Only necessary if **Verification** is unsuccessful*
   
