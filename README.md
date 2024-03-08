@@ -37,7 +37,7 @@ The following are a list of **recommendations** for the training session but are
 - Disable all cloud syncronization via iCloud MSLive or OneDrive
 
 ## Installation
-### Repository
+### Code repository
 - Download a compressed ZIP
   - Click the green CODE button at the top
   - Select Download ZIP
