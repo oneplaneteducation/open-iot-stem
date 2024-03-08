@@ -14,6 +14,7 @@ Adafruit Bluefruit nrf51 library installed via library manager.
 ## Prerequisites
 
 The following are a list of **requirements** for the training session
+
 - Video conferencing: 
    *At minium 2 video conferencing devices*
 	- Primary video device to share the screen of the PC
@@ -31,11 +32,14 @@ The following are a list of **requirements** for the training session
     - OPEN approved IoT kit
  
 The following are a list of **recommendations** for the training session but are not required
+
 - Disable local virtual private networking (VPN)
 - Disable all cloud syncronization via iCloud MSLive or OneDrive
 
 ## Installation
-### Obtain a copy of this repository using one of the following methods
+- Obtain a copy of this repository using one of the following methods
 - Download a compressed copy (*.zip)
-	- Click the green CODE button at the top.
-- 
+  - Click the green CODE button at the top.
+	### OR
+
+
