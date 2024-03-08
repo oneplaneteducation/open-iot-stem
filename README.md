@@ -63,7 +63,7 @@ The following are a list of **recommendations** for the training session but are
 - Flash program device
 - ?LoRaWAN integration?
 ## Verification
-*[5 min]*
+*[10 min]*
 - Serial terminal
   - GPS data
   - Sensor data
