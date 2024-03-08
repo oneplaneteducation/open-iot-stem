@@ -17,8 +17,9 @@ The following are a list of **requirements** for the training session
 
 - Video conferencing: 
    *At minium 2 video conferencing devices*
-	- Primary video device to share the screen of the PC
-	- Hand held or mobile device to show the hands on assembly of the IoT
+	- Primary video conference device that is able to share the screen of the workstation computer
+	- Hand held or mobile device to show the assembly of the IoT
+   	- It is preferred to mute the sound on all devices other than the primary video to avoid interference
 - Workstation computer:
     - Windows 64 bit – 10 or newer
     - MacOS 64 bit - 10.14 mojave or newer 
