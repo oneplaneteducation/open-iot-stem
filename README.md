@@ -40,6 +40,7 @@ The following are a list of **recommendations** for the training session but are
 
 ## Installation
 ### Repository
+*[10 min]*
 - Download a compressed ZIP
   - Click the green CODE button at the top
   - Select Download ZIP
@@ -49,20 +50,24 @@ The following are a list of **recommendations** for the training session but are
   - The file will extract to the same directory *../USER/Downloads* by default
   - Navigate to the extracted folder and open it for later use
 ### Workspace 
+*[25 min]*
 - Arduino interactive desktop environment (IDE)
   - Download
   - Update Boards
   - Update libs
     
 ## Coding
+*[15 min]*
 - Add LoRaWAN secrets and keys
 - Compile and build 
 - Flash program device
 - ?LoRaWAN integration?
 ## Verification
+*[5 min]*
 - Serial terminal
   - GPS data
   - Sensor data
 ## Debug
+*[+15 min]*
 *Only necessary if **Verification** is unsuccessful*
   
