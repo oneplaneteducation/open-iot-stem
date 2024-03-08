@@ -39,8 +39,9 @@ The following are a list of **recommendations** for the training session but are
 - Disable all cloud syncronization via iCloud MSLive or OneDrive
 
 ## Installation
+*[35 min]*
 ### Repository
-*[10 min]*
+
 - Download a compressed ZIP
   - Click the green CODE button at the top
   - Select Download ZIP
@@ -50,7 +51,6 @@ The following are a list of **recommendations** for the training session but are
   - The file will extract to the same directory *../USER/Downloads* by default
   - Navigate to the extracted folder and open it for later use
 ### Workspace 
-*[25 min]*
 - Arduino interactive desktop environment (IDE)
   - Download
   - Update Boards
