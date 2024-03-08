@@ -46,11 +46,12 @@ The following are a list of **recommendations** for the training session but are
   - Uncompress the ZIP by double clicking the file
   - The file will extract to the same directory *../USER/Downloads* by default
   - Navigate to the extracted folder and open it for later use
-### Code Workspace 
+### Code workspace 
 - Arduino interactive desktop environment (IDE)
   - Download
   - Update Boards
   - Update libs
+    
 ## Coding
 - Add LoRaWAN secrets and keys
 - Compile and build 
