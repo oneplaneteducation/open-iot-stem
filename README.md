@@ -38,11 +38,15 @@ The following are a list of **recommendations** for the training session but are
 
 ## Installation
 - Obtain a copy of this repository using one of the following methods
-- Download a compressed copy (*.zip)
+- Download a compressed copy ZIP
   - Click the green CODE button at the top
   - Select Download ZIP
     ![ZIP download](https://github.com/GrayHatGuy/open-iot-stem/blob/3617701d3dec65c0ebc42911ac7744f3bd4ea87b/img/repo_zip.png?raw=true)
-  
-	### OR
-
+  - The default ZIP file will be downloaded to your *../USER/Downloads* directory for both Windows or macOS
+  - Uncompress the ZIP by double clicking the file
+  - The file will extract to the same directory *../USER/Downloads* by default
+  - Navigate to the extracted folder and open it for later use
+- Install Arduino interactive desktop environment (IDE)
+- 
+    
 
