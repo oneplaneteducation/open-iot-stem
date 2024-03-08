@@ -47,6 +47,12 @@ The following are a list of **recommendations** for the training session but are
   - The file will extract to the same directory *../USER/Downloads* by default
   - Navigate to the extracted folder and open it for later use
 - Install Arduino interactive desktop environment (IDE)
-- 
+  - Download
+  - Update Boards
+  - Update libs
+- Update LoRaWAN secrets and keys
+- Compile and build code
+- Flash device
+- Verify and debug
     
 
