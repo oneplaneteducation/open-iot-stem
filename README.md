@@ -41,6 +41,7 @@ The following are a list of **recommendations** for the training session but are
 - Download a compressed copy (*.zip)
   - Click the green CODE button at the top
   - Select Download ZIP
+    ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 	### OR
 
 
