@@ -39,7 +39,8 @@ The following are a list of **recommendations** for the training session but are
 ## Installation
 - Obtain a copy of this repository using one of the following methods
 - Download a compressed copy (*.zip)
-  - Click the green CODE button at the top.
+  - Click the green CODE button at the top
+  - Select Download ZIP
 	### OR
 
 
