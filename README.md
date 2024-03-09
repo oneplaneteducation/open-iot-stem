@@ -52,8 +52,17 @@ The following are a list of **recommendations** for the training session but are
   - Navigate to the extracted folder and open it for later use
 ### Workspace 
 - Arduino interactive desktop environment (IDE)
-  - Download
+  - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+  - Download the installation for your assocated operating system (Windows, macOS, or Linux)
+  - Complete the instruction for installing
+  - Laund Arduino IDE
+- Post installation set-up
   - Update Boards
+    *If a third-party board template is needed you will need to update it accordingly this template varies depenging on the board being used*
+    *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
+  	- Verify Arduino is open and navigate to menu **File>Prefernces>Additional Board Support**
+   	- Paste the following into the locations and click OK to accept
+        	```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
   - Update libs
     
 ## Coding
