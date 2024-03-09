@@ -71,8 +71,8 @@ The following are a list of **recommendations** for the training session but are
     *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
   	- Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
    	- Paste the following into the locations and click OK to accept
-
-        	https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json
+      
+      	```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
   
   - Update libs
     
