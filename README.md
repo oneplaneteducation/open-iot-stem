@@ -16,7 +16,7 @@ Adafruit Bluefruit nrf51 library installed via library manager.
 The following are a list of **requirements** for the training session
 
 - Video conferencing: 
-   *At minium 2 video conferencing devices*
+   *At minimum 2 video conferencing devices*
 	- Primary video conference device that is able to share the screen of the workstation computer and communicate with the team
 	- Hand held or mobile device to show the assembly of the IoT
    	- Mute the sound on all devices other than the primary video to avoid interference (preferred)
@@ -56,9 +56,10 @@ The following are a list of **recommendations** for the training session but are
   - Complete the installation instructions on the previous page
   - Launch Arduino IDE 
 - Post installation set-up
-  - Load the example program
-    The example program is located within the extracted ZIP file extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
-    - Save a working copy of the project to your */USER/* directory. This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits.
+  - Load the example program from title menu **File>/Load**
+    The example program is located within the extracted ZIP extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
+    - Save a working copy of the project file to your */USER/* directory from tile menu **File>Save As**
+    - This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits.
   - Update Boards
     *If a third-party board template is needed you will need to update it accordingly this template varies depenging on the board being used*
     *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
