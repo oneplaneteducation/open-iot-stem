@@ -30,8 +30,7 @@ The following are a list of **requirements** for the training session
     - File downloads unrestricted
     - USB ports unrestricted
 - IoT Hardware
-    - USB cables
-    - OPEN approved IoT kit
+    - OPEN approved educational IoT kit
  
 The following are a list of **recommendations** for the training session but are not required
 
