@@ -45,6 +45,7 @@ The following are a list of **recommendations** for the training session but are
 ### Repository
 
 - Download a compressed ZIP
+  
   - Click the green CODE button at the top
   - Select Download ZIP
     ![ZIP download](https://github.com/GrayHatGuy/open-iot-stem/blob/3617701d3dec65c0ebc42911ac7744f3bd4ea87b/img/repo_zip.png?raw=true)
@@ -54,25 +55,33 @@ The following are a list of **recommendations** for the training session but are
   - Navigate to the extracted folder and open it for later use
     
 ### Workspace 
+
 - Arduino interactive desktop environment (IDE)
+  
   - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
   - Download the installation for your assocated operating system (Windows, macOS, or Linux)
   - Complete the installation instructions on the previous page
   - Launch Arduino IDE
     
 - Post installation set-up
+  
   - Load the example program from title menu **File>/Load**
     The example program is located within the extracted ZIP extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
+
     - Save a working copy of the project file to your */USER/* directory from tile menu **File>Save As**
     - This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits
       
   - Update Boards
-    *If a third-party board template is needed you will need to update it accordingly this template varies depenging on the board being used*
+    
+    *If a third-party board template is needed you will need to update it accordingly this template varies depending on the board being used*
     *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
-  	- Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
-   	- Paste the following into the location and click OK to accept
-      
-      	```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
+    
+    - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
+    - Paste the following into the location and click OK to accept
+
+   ```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
+
+    - Save a working copy of the project file to your /USER/ directory from tile menu **File>Save As**
   
   - Update libs
     
