@@ -53,9 +53,12 @@ The following are a list of **recommendations** for the training session but are
 - Arduino interactive desktop environment (IDE)
   - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
   - Download the installation for your assocated operating system (Windows, macOS, or Linux)
-  - Complete the instruction for installing
-  - Laund Arduino IDE
+  - Complete the installation instructions on the previous page
+  - Launch Arduino IDE 
 - Post installation set-up
+  - Load the example program
+    The example program is located within the extracted ZIP file extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
+    - Save a working copy of the project to your */USER/* directory. This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits.
   - Update Boards
     *If a third-party board template is needed you will need to update it accordingly this template varies depenging on the board being used*
     *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
