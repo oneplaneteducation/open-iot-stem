@@ -56,7 +56,7 @@ The following are a list of **recommendations** for the training session but are
     
 ### Workspace 
 
-- Arduino interactive desktop environment (IDE)
+- Install Arduino interactive desktop environment (IDE)
   
   - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
   - Download the installation for your assocated operating system (Windows, macOS, or Linux)
@@ -68,7 +68,7 @@ The following are a list of **recommendations** for the training session but are
   - Load the example program from title menu **File>/Load**
     The example program is located within the extracted ZIP extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
 
-    - Save a working copy of the project file to your */USER/* directory from tile menu **File>Save As**
+    - Save a working copy of the project file to your */USER/* directory from title menu **File>Save As**
     - This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits
       
   - Update Boards
@@ -81,9 +81,21 @@ The following are a list of **recommendations** for the training session but are
 
    ```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
 
-    - Save a working copy of the project file to your /USER/ directory from tile menu **File>Save As**
+    - Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
   
-  - Update libs
+   - Update libraries
+     - Install with link in code windo (preferred)
+       - Scroll to the tope of the code window in Arduino you will see the following
+         <picture of required libraries
+       - Click each of the links and to auto install in the library manager
+         *If links fail to install libraries the try the following alternative methods*
+     - Search Arduino manager and install manually (alternate)
+     - Download and import using ZIP (alternate)
+     - IF all libraries have been successfully installed then
+     	- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
+        - Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
+
+     
     
 ## Coding
 *[15 min]*
