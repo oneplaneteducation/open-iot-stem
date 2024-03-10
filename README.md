@@ -80,14 +80,15 @@ The following are a list of **recommendations** for the training session but are
     
 - Uncompress the ZIP by double clicking the file
 
-	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/32fa7c079bdea24ce6d8be11ccd1ddb109cb30c9/img/zip_extract.png)  
+	![zip extract](https://github.com/GrayHatGuy/open-iot-stem/blob/32fa7c079bdea24ce6d8be11ccd1ddb109cb30c9/img/zip_extract.png)  
     
   - The file will extract to the same directory *../USER/Downloads* by default
 
   	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/fb390c07799f70c12bb6786b487a4dc299155276/img/zip_extract_default2.png)  
     
-  - Navigate to the extracted folder and open it for later use
+  - Navigate to the extracted folder and open the ../src/ folder to find the open-iot-stem.ino program
 
+	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/fb390c07799f70c12bb6786b487a4dc299155276/img/zip_extract_default2.png) 
 
 - Post installation set-up
   
