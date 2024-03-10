@@ -124,28 +124,26 @@ The following are a list of **recommendations** for the training session but are
 
     		- Open board manager
 
-		![notext]()
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/boardmgr-select.png)
 
-		- Search for RAK boards
+		- Search for RAK boards and install the following
 
-    		![notext]()
-  
-		- Install all boards starting with the following:
-  
-  		![notext]()
+    		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK.png)
    
    		- After installation completes install the others
   
-		![notext]()
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK2.png)
 
 		- Select the board for your project
 		*Note: RAK nRF board shown as an example boards will vary based on your project*
   
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board_select.png)
+
 		![notext]()
 
 		- Save and quit the project to update boards
 
-		![notext]()
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board_wisblock.png)
   
  	- Update libraries and dependancies
     
