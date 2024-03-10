@@ -111,7 +111,7 @@ The following are a list of **recommendations** for the training session but are
         
      	- Install
 
-     *If the library does not exist in the Arduino Library manager try the following expert alternatives:*  
+     	***If all required libraries have been installed does not exist in the Arduino Library manager try the following expert alternatives:***  
        
      - Download and import using ZIP (alternate expert)
        
