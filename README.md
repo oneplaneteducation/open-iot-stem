@@ -124,28 +124,28 @@ The following are a list of **recommendations** for the training session but are
 
     		- Open board manager
 
-			![notext]()
+		![notext]()
 
 		- Search for RAK boards
- 
-    			![notext]()
+
+    		![notext]()
   
 		- Install all boards starting with the following:
   
-  			![notext]()
+  		![notext]()
   
     		- After installation completes install the others
   
-  			![notext]()
+		![notext]()
       
       		- Select the board for your project
 		*Note: RAK nRF board shown as an example boards will vary based on your project*
   
-			![notext]()
+		![notext]()
 
 		- Save and quit the project to update boards
 
-			![notext]()
+		![notext]()
   
  	- Update libraries and dependancies
     
