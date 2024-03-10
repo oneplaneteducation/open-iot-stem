@@ -83,7 +83,7 @@ The following are a list of **recommendations** for the training session but are
   - Update Boards
     
     *We are using an nRF52 third-party board for this training session you will need to add board support*
-        *Arduino has built in board support for many boards but if you use other third-party boards in the future they will need to be appended in this location*
+        *Arduino has built in board support for many boards but if you use other third-party boards in the future they can also be appended in this location*
     
     - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
       
