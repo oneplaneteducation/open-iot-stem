@@ -79,7 +79,7 @@ The following are a list of **recommendations** for the training session but are
     - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
     - Paste the following into the location and click OK to accept
 
-   ```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
+   		```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
 
     - Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
   
