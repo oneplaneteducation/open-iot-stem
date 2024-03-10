@@ -133,12 +133,12 @@ The following are a list of **recommendations** for the training session but are
 		- Install all boards starting with the following:
   
   		![notext]()
-  
-    		- After installation completes install the others
+   
+   		- After installation completes install the others
   
 		![notext]()
-      
-      		- Select the board for your project
+
+		- Select the board for your project
 		*Note: RAK nRF board shown as an example boards will vary based on your project*
   
 		![notext]()
