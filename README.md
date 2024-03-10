@@ -102,9 +102,9 @@ The following are a list of **recommendations** for the training session but are
        
 			- Scroll to the tope of the code window in Arduino you will see the following
          
-	 		<picture of required libraries
-         
-       			- Click each of the links to auto install using the library manager
+	 		picture of required libraries			
+
+			- Click each of the links to auto install using the library manager
          		*If links fail to install libraries the try the following alternative methods*
          
  		- Manually Search Arduino Library manager (alternate)
