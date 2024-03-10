@@ -108,28 +108,21 @@ The following are a list of **recommendations** for the training session but are
          		*If links fail to install libraries the try the following alternative methods*
          
  		- Manually Search Arduino Library manager (alternate)
-   
-      			- Select title menu library manager
-   
-      			- Search
-        
-      			- Install
+   			- Select title menu library manager
+   			- Search
+			- Install
 
-     	*If all required libraries have been installed does not exist in the Arduino Library manager try the following expert alternatives:*  
+     	*If all required libraries have been installed skip the expert altenative and continue to project SAVE/RELOAD*
+    
+		- Download and import using ZIP (alternate expert)- Select title menu ZIP
+			- Navigate to the ZIP file typically located in *../USER/Downloads/*
+			- Search the internet (alternate expert)
        
-  	- Download and import using ZIP (alternate expert)
-       
-     		- Select title menu ZIP
+		- Check repository /lib
 
-     		- Navigate to the ZIP file typically located in *../USER/Downloads/*
-
-     		- Search the internet (alternate expert)
-       
-	- IF all libraries have been successfully installed then 
-       
- - Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
-      
-        - Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
+  		- SAVE and RELOAD
+			- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
+			- Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
 
      
     
