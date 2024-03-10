@@ -69,6 +69,7 @@ The following are a list of **recommendations** for the training session but are
     The example program is located within the extracted ZIP extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
 
     - Save a working copy of the project file to your */USER/* directory from title menu **File>Save As**
+      
     - This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits
       
   - Update Boards
@@ -77,22 +78,45 @@ The following are a list of **recommendations** for the training session but are
     *Arduino has built in board support for many boards but if you use other third-party boards in the future they will need to be appended in this location*
     
     - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
+      
     - Paste the following into the location and click OK to accept
 
    		```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
 
     - Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
   
-   - Update libraries
-     - Install with link in code windo (preferred)
+   - Update libraries and dependancies
+     
+     - Automatic using code links (preferred)
+       
        - Scroll to the tope of the code window in Arduino you will see the following
          <picture of required libraries
-       - Click each of the links and to auto install in the library manager
+         
+       - Click each of the links to auto install using the library manager
          *If links fail to install libraries the try the following alternative methods*
-     - Search Arduino manager and install manually (alternate)
-     - Download and import using ZIP (alternate)
-     - IF all libraries have been successfully installed then
+         
+     - Manually Search Arduino Library manager (alternate)
+       
+	- Select title menu library manager
+   
+     	- Search
+        
+     	- Install
+
+     *If the library does not exist in the Arduino Library manager try the following expert alternatives:*  
+       
+     - Download and import using ZIP (alternate expert)
+       
+     	- Select title menu ZIP
+
+      	- Navigate to the ZIP file typically located in *../USER/Downloads/*
+
+    - Search the internet (alternate expert)
+       
+     - IF all libraries have been successfully installed then 
+       
      	- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
+      
         - Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
 
      
