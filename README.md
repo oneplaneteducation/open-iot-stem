@@ -101,19 +101,89 @@ The following are a list of **recommendations** for the training session but are
     
 		- Automatic using code links (preferred)
        
-			- Scroll to the tope of the code window in Arduino you will see the following
+			- Scroll to the top of the code window in Arduino you will see the following
          
 	 		picture of required libraries			
 
 			- Click each of the links to auto install using the library manager
-         		*If links fail to install libraries the try the following alternative methods*
+     
+			*If all library links are successfully installed continue to Save and reload project below*
+     			*If library links fail to install then try manually install with alternate method below*
          
  		- Manually Search Arduino Library manager (alternate)
+     
    			- Select title menu library manager
+        
    			- Search
+        
 			- Install
+     
+	- Save and reload project
+   
+ 		- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**  
+   
+## Edit code
+*[5 min]*
+*In order for the IoT device to be recognized within the LoRaWAN network you will need to add secret keys to the code these are similar to a username and password*
 
-     	*If all required libraries have been installed skip the expert altenative and continue to project SAVE/RELOAD*
+- Edit code and add secrets and keys
+
+  Show code screen
+  
+## Compile and build code
+*[5 min]*
+*To run the code we need to verify the code for errors and check that all necessary libraries and components are installed this is referred as building and/or compiling*
+
+- Click Build button to compile 
+
+  screenshot of build button
+
+- Wait until compile is complete
+
+  	- if compile is complete continue on to [Flash code]	
+  	screenshot of good compile
+
+	- if compile fails then see debug
+
+## Flash code
+*After the code has completed a successful build/compile we need to upload the program and flash the iot device with the code*
+
+- Verify USB is connected to IoT
+  
+- Verify IoT is detected
+
+	- If connected COM port will be shown in status bar
+
+  	- If not connected click on status and select port for your IoT
+  
+- Flash program device
+
+  	- Click Upload button to flash
+
+     	  screenshot of upload button
+
+- Wait for flash to complete
+  
+	- If successful you will see the following screen and continue to [Verification]
+
+  	screenshot
+
+	- If fails see debug 
+
+  
+## Verification
+*[10 min]*
+- Serial terminal
+  - GPS data
+  - Sensor data
+    
+## Debug
+*[+15 min]*
+*Only necessary if prior steps are unsuccessful*
+
+EXTRAS
+
+     	*If libraries are missing*
     
 		- Download and import using ZIP (alternate expert)- Select title menu ZIP
 			- Navigate to the ZIP file typically located in *../USER/Downloads/*
@@ -125,22 +195,5 @@ The following are a list of **recommendations** for the training session but are
 			- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
 			- Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
 
-     
-    
-## Coding
-*[15 min]*
-- Add LoRaWAN secrets and keys
-- Compile and build 
-- Flash program device
-- ?LoRaWAN integration?
-  
-## Verification
-*[10 min]*
-- Serial terminal
-  - GPS data
-  - Sensor data
-    
-## Debug
-*[+15 min]*
-*Only necessary if **Verification** is unsuccessful*
+ 
   
