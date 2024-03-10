@@ -86,9 +86,25 @@ The following are a list of **recommendations** for the training session but are
 
   	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/fb390c07799f70c12bb6786b487a4dc299155276/img/zip_extract_default2.png)  
     
-  - Navigate to the extracted folder and open the ../src/ folder to find the open-iot-stem.ino program
+  - Navigate to the extracted folder and open the *../src/* folder to find the *open-iot-stem.ino* program
 
-	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/fb390c07799f70c12bb6786b487a4dc299155276/img/zip_extract_default2.png) 
+	![zip open_src](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/zip_open_src.png)
+
+  - Double click *open-iot-stem.ino* to open it in Arduino
+
+	![open_ino](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/open_ino.png)
+
+  - You will then be prompted to import the sketch and create a project click OK
+
+	![create sketch](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/create_sketch_folder.png)
+
+  - Select from the **File>Save As** from the title menu and save the project to your *../USER/../Ardunio/* directory this is the default location for all project
+
+	![save as](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/file_saveas_select.png)
+
+        ![save as select](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
+
+
 
 - Post installation set-up
   
