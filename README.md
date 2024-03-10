@@ -61,11 +61,12 @@ The following are a list of **recommendations** for the training session but are
 
 	![run install](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_run.png)
 
+	- The following screen will appear if installation is successful
+ 
+  	![run install](https://github.com/GrayHatGuy/open-iot-stem/blob/b9773bcb26dc30eb709d180c0b20ddd3482262ba/img/install_run_OK.png)
 
-    
-  - Launch Arduino IDE
-
-### Repository
+  
+### Code repository
 
 - Download a compressed ZIP
   
