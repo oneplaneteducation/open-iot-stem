@@ -4,13 +4,6 @@ One Planet Education Network IoT STEM Education Kit
 
 <img width="248" alt="OPENglobe" src="https://user-images.githubusercontent.com/17368055/199580276-4e5cb63f-2cf8-4e95-b6a8-bd3511b393b7.png">
 
-Adafruit nrf utility installed via PIP (Python3).
-https://github.com/adafruit/Adafruit_nRF52_nrfutil
-
-All of the Adafruit board definitions in the sketch are installed via library manager.
-
-Adafruit Bluefruit nrf51 library installed via library manager.
-
 ## Prerequisites
 
 The following are a list of **requirements** for the training session
@@ -42,6 +35,19 @@ The following are a list of **recommendations** for the training session but are
 
 ## Installation
 *[35 min]*
+   
+### Workspace 
+
+- Install Arduino interactive desktop environment (IDE)
+  
+  - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+    
+  - Download the installation for your assocated operating system (Windows, macOS, or Linux)
+    
+  - Complete the installation instructions on the previous page
+    
+  - Launch Arduino IDE
+
 ### Repository
 
 - Download a compressed ZIP
@@ -59,18 +65,7 @@ The following are a list of **recommendations** for the training session but are
   - The file will extract to the same directory *../USER/Downloads* by default
     
   - Navigate to the extracted folder and open it for later use
-    
-### Workspace 
 
-- Install Arduino interactive desktop environment (IDE)
-  
-  - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
-    
-  - Download the installation for your assocated operating system (Windows, macOS, or Linux)
-    
-  - Complete the installation instructions on the previous page
-    
-  - Launch Arduino IDE
 
 - Post installation set-up
   
@@ -183,13 +178,22 @@ The following are a list of **recommendations** for the training session but are
 
 EXTRAS
 
-     	*If libraries are missing*
-    
-		- Download and import using ZIP (alternate expert)- Select title menu ZIP
-			- Navigate to the ZIP file typically located in *../USER/Downloads/*
-			- Search the internet (alternate expert)
+*If libraries are missing*
+
+- Download and import using ZIP (alternate expert)- Select title menu ZIP
+- Navigate to the ZIP file typically located in *../USER/Downloads/*
+- Search the internet (alternate expert)
        
-		- Check repository /lib
+- Check repository /lib
+
+  
+Adafruit nrf utility installed via PIP (Python3).
+https://github.com/adafruit/Adafruit_nRF52_nrfutil
+
+All of the Adafruit board definitions in the sketch are installed via library manager.
+
+Adafruit Bluefruit nrf51 library installed via library manager.
+
 
   		- SAVE and RELOAD
 			- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
