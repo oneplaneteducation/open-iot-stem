@@ -111,13 +111,16 @@ The following are a list of **recommendations** for the training session but are
 	- Update Boards
     
     	*We are using an nRF52 third-party board for this training session you will need to add board support*
-        *Arduino has built in board support for many boards but if you use other third-party boards in the future they can also be appended in this location*
+        *Arduino has built in board support for many boards but if you use other [third-party boards in](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls) in the future they can also be appended in this location*
     
    		- Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
       
     		- Paste the following into the location and click OK to accept
 
-   		  ```https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSPIndex/main/package_rakwireless.com_rui_index.json```
+   		  	```https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_index.json```
+       
+			```https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json```
+       
 
     		- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
   
