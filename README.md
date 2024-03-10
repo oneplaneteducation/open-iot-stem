@@ -47,7 +47,21 @@ The following are a list of **recommendations** for the training session but are
   - Complete the installation instructions on the previous page
   	- Accept agreement
      
-     	![EULA](https://github.com/GrayHatGuy/open-iot-stem/blob/dd037156e10cf8012d80651c72ed1127b8dd8774/img/install_accept_eula.png)	
+     	![EULA](https://github.com/GrayHatGuy/open-iot-stem/blob/dd037156e10cf8012d80651c72ed1127b8dd8774/img/install_accept_eula.png)
+
+	- Select local install only USER
+ 
+    	![local user install only](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_onlyme.png)
+
+	- Choose defauls install location under USER home
+ 
+    	![install location](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_location.png)
+
+	- Choose Run after installation
+
+	![run install](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_run.png)
+
+
     
   - Launch Arduino IDE
 
