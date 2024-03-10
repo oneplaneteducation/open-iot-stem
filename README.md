@@ -45,6 +45,8 @@ The following are a list of **recommendations** for the training session but are
   - Download the installation for your assocated operating system (Windows, macOS, or Linux)
     
   - Complete the installation instructions on the previous page
+  	- Accept agreement
+     	![EULA](https://github.com/GrayHatGuy/open-iot-stem/blob/dd037156e10cf8012d80651c72ed1127b8dd8774/img/install_accept_eula.png)	
     
   - Launch Arduino IDE
 
