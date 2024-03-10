@@ -122,7 +122,30 @@ The following are a list of **recommendations** for the training session but are
 			```https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json```
        
 
-    		- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
+    		- Open board manager
+
+			![notext]()
+
+		- Search for RAK boards
+ 
+    			![notext]()
+  
+		- Install all boards starting with the following:
+  
+  			![notext]()
+  
+    		- After installation completes install the others
+  
+  			![notext]()
+      
+      		- Select the board for your project
+		*Note: RAK nRF board shown as an example boards will vary based on your project*
+  
+			![notext]()
+
+		- Save and quit the project to update boards
+
+			![notext]()
   
  	- Update libraries and dependancies
     
