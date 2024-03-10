@@ -47,11 +47,16 @@ The following are a list of **recommendations** for the training session but are
 - Download a compressed ZIP
   
   - Click the green CODE button at the top
+    
   - Select Download ZIP
     ![ZIP download](https://github.com/GrayHatGuy/open-iot-stem/blob/3617701d3dec65c0ebc42911ac7744f3bd4ea87b/img/repo_zip.png?raw=true)
+    
   - The default ZIP file will be downloaded to your *../USER/Downloads* directory for both Windows or macOS
+    
   - Uncompress the ZIP by double clicking the file
+    
   - The file will extract to the same directory *../USER/Downloads* by default
+    
   - Navigate to the extracted folder and open it for later use
     
 ### Workspace 
@@ -59,8 +64,11 @@ The following are a list of **recommendations** for the training session but are
 - Install Arduino interactive desktop environment (IDE)
   
   - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+    
   - Download the installation for your assocated operating system (Windows, macOS, or Linux)
+    
   - Complete the installation instructions on the previous page
+    
   - Launch Arduino IDE
     
 - Post installation set-up
