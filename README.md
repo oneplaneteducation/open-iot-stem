@@ -107,16 +107,6 @@ The following are a list of **recommendations** for the training session but are
 	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
     
 - Post installation set-up
-  
-  	- Load project
-
-  		- Load the example program from title menu **File>/Load**
-     
-		- The example program is located within the extracted ZIP extracted during the earlier steps typcially your */USER/Downloads* directory in *../open-iot-stem/src/open-iot-stem.ino*
-
-		- Save a working copy of the project file to your */USER/* directory from title menu **File>Save As**
-      
-		- This preserves a clean copy of the file in the extracted ZIP location in case your working copy is corrupted during edits
 
 	- Update Boards
     
