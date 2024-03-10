@@ -143,7 +143,7 @@ The following are a list of **recommendations** for the training session but are
 
 		- Save and quit the project to update boards
 
-		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/b717957834c2c3c81e71595e75a44832bc8680cb/img/Screenshot%202024-03-10%20194150.png)
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/410a55094f25b8dad8bfc0a350c4d99f98e89992/img/save%20and%20quit.png)
   
  	- Update libraries and dependancies
     
