@@ -44,7 +44,7 @@ The following are a list of **recommendations** for the training session but are
 *[35 min]*
 ### Repository
 
-- Download a compressed ZIP
+#### Download a compressed ZIP
   
   - Click the green CODE button at the top
     
@@ -53,7 +53,7 @@ The following are a list of **recommendations** for the training session but are
     
   - The default ZIP file will be downloaded to your *../USER/Downloads* directory for both Windows or macOS
     
-  - Uncompress the ZIP by double clicking the file
+ #### Uncompress the ZIP by double clicking the file
     
   - The file will extract to the same directory *../USER/Downloads* by default
     
@@ -61,7 +61,7 @@ The following are a list of **recommendations** for the training session but are
     
 ### Workspace 
 
-- Install Arduino interactive desktop environment (IDE)
+#### Install Arduino interactive desktop environment (IDE)
   
   - Navigate to the [Arduino Desktop Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
     
