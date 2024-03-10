@@ -73,8 +73,8 @@ The following are a list of **recommendations** for the training session but are
       
   - Update Boards
     
-    *If a third-party board template is needed you will need to update it accordingly this template varies depending on the board being used*
-    *We are using and nRF52 third-party board for this training session if you use other boards in the future they will need to be added*
+    *We are using an nRF52 third-party board for this training session you will need to add board support**
+    *Arduino has built in board support for many boards but if you use other third-party boards in the future they will need to be appended in this location*
     
     - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
     - Paste the following into the location and click OK to accept
