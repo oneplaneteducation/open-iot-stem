@@ -63,12 +63,12 @@ The following are a list of **recommendations** for the training session but are
 
 	- The following screen will appear if installation is successful
  
-  	![run install](https://github.com/GrayHatGuy/open-iot-stem/blob/b9773bcb26dc30eb709d180c0b20ddd3482262ba/img/install_run_OK.png)
+  	![run ok](https://github.com/GrayHatGuy/open-iot-stem/blob/b9773bcb26dc30eb709d180c0b20ddd3482262ba/img/install_run_OK.png)
 
   
-### Code repository
+### Copy code repository
 
-- Download a compressed ZIP
+- Download a compressed ZIP of the code
   
   - Click the green CODE button at the top
     
@@ -79,8 +79,12 @@ The following are a list of **recommendations** for the training session but are
   - The default ZIP file will be downloaded to your *../USER/Downloads* directory for both Windows or macOS
     
 - Uncompress the ZIP by double clicking the file
+
+	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/32fa7c079bdea24ce6d8be11ccd1ddb109cb30c9/img/zip_extract.png)  
     
   - The file will extract to the same directory *../USER/Downloads* by default
+
+  	![zip extract default](https://github.com/GrayHatGuy/open-iot-stem/blob/fb390c07799f70c12bb6786b487a4dc299155276/img/zip_extract_default2.png)  
     
   - Navigate to the extracted folder and open it for later use
 
