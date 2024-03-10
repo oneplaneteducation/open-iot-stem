@@ -102,9 +102,10 @@ The following are a list of **recommendations** for the training session but are
 
 	![save as](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/file_saveas_select.png)
 
-  - Confirm the location and save
- 
-    	![save as](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
+  - Confirm the location and save 
+
+	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
+    
 - Post installation set-up
   
   	- Load project
