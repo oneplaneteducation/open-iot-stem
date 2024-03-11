@@ -139,7 +139,7 @@ The following are a list of **recommendations** for the training session but are
   
 		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board_select.png)
 
-		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board_wisblock.png)
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/4cbab286550564bde282afb667007109a1679a26/img/selectboard2.png)
 
 		- Save and quit the project to update boards
 
