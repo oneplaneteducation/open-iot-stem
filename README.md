@@ -170,13 +170,21 @@ The following are a list of **recommendations** for the training session but are
 
 - Edit code and add secrets and keys
 
-  Show code screen
+	- Navigate to the code windwo hold the <CTRL> key and press F to search the code
+
+ 	- Type 'deviceEUI' to locate the secrets that require updating
+ 
+  	- Update the 00000s in the code to reflect the secrets for your IoT device
+
+		![notext]()
+  	
+   	- Save sketch 
   
 ## Compile and build code
 *[5 min]*
 *To run the code we need to verify the code for errors and check that all necessary libraries and components are installed this is referred as building and/or compiling*
 
-- Click Build button to compile 
+- Click Verify button to compile and build code 
 
   screenshot of build button
 
@@ -191,69 +199,22 @@ The following are a list of **recommendations** for the training session but are
 *After the code has completed a successful build/compile we need to upload the program and flash the iot device with the code*
 
 - Verify USB is connected to IoT
+
+- Check that correct board and port is selected
   
-- Verify IoT is detected
+- Select the Upload button to flash program the device
 
-	- If connected COM port will be shown in status bar
+- The bottom terminal screen will the status of the Upload
 
-  	- If not connected click on status and select port for your IoT
-  
-- Flash program device
-
-  	- Click Upload button to flash
-
-     	  screenshot of upload button
-
-- Wait for flash to complete
-  
-	- If successful you will see the following screen and continue to [Verification]
-
-  	screenshot
-
-	- If fails see debug 
-
+- The device will automatically start when flash is complete
   
 ## Verification
 *[10 min]*
-- Serial terminal
-  - GPS data
-  - Sensor data
+
+- Open the serial monitor using the menu title bar **Tools>Serial Monitor** or pressing <CTRL>+<SHIFT>+M keys
+
+- The serial monitor will show the sensor information below the code window
     
-## Debug
-*[+15 min]*
-*Only necessary if prior steps are unsuccessful*
-
-EXTRAS
-
-*If libraries are missing*
-
-- Download and import using ZIP (alternate expert)- Select title menu ZIP
-- Navigate to the ZIP file typically located in *../USER/Downloads/*
-- Search the internet (alternate expert)
-       
-- Check repository /lib
-
-  
-Adafruit nrf utility installed via PIP (Python3).
-https://github.com/adafruit/Adafruit_nRF52_nrfutil
-
-All of the Adafruit board definitions in the sketch are installed via library manager.
-
-Adafruit Bluefruit nrf51 library installed via library manager.
-
-
-  		- SAVE and RELOAD
-			- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
-			- Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
-
-
-    		- Manually Search Arduino Library manager (alternate)
-     
-   			- Select title menu library manager
-        
-   			- Search
-        
-			- Install
 
  
   
