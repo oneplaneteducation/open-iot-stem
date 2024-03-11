@@ -53,11 +53,11 @@ The following are a list of **recommendations** for the training session but are
  
     	![local user install only](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_onlyme.png)
 
-	- Choose defauls install location under USER home
+	- Choose default install location under USER home
  
     	![install location](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_location.png)
 
-	- Choose Run after installation
+	- Choose Run Arduino after installation
 
 	![run install](https://github.com/GrayHatGuy/open-iot-stem/blob/286e78ae7300664053bf196812677572951bfd85/img/install_run.png)
 
@@ -78,7 +78,7 @@ The following are a list of **recommendations** for the training session but are
     
   - The default ZIP file will be downloaded to your *../USER/Downloads* directory for both Windows or macOS
     
-- Uncompress the ZIP by double clicking the file
+- Extract the ZIP by double clicking the file
 
 	![zip extract](https://github.com/GrayHatGuy/open-iot-stem/blob/32fa7c079bdea24ce6d8be11ccd1ddb109cb30c9/img/zip_extract.png)  
     
@@ -102,7 +102,7 @@ The following are a list of **recommendations** for the training session but are
 
 	![save as](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/file_saveas_select.png)
 
-  - Confirm the location and save 
+  - Confirm the location and save **File>Save** or press <CTRL>+S
 
 	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
     
@@ -110,8 +110,8 @@ The following are a list of **recommendations** for the training session but are
 
 	- Update Boards
     
-    	*We are using an nRF52 third-party board for this training session you will need to add board support*
-        *Arduino has built in board support for many boards but if you use other [third-party boards in](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls) in the future they can also be appended in this location*
+    	*We are using an Wisblock nRF52 for this training session you will need to add third party board support*
+        *Arduino has built in board support for many boards but if you use others see [third-party boards in](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls) they will be appended to this same location*
     
    		- Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
       
@@ -122,7 +122,7 @@ The following are a list of **recommendations** for the training session but are
 			```https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json```
        
 
-    		- Open board manager
+    		- Open board manager **Tools>Board>Boards Manager** or <CTRL>+<SHIFT>B
 
 			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/boardmgr-select.png)
 
@@ -135,13 +135,13 @@ The following are a list of **recommendations** for the training session but are
    			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK2.png)
 
 		- Select the board for your project
-		*Note: RAK nRF board shown as an example boards will vary based on your project*
+		*Note: Wisblock RAK nRF board is shown as an example boards may vary based on your project*
   
 		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board_select.png)
 
 		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/4cbab286550564bde282afb667007109a1679a26/img/selectboard2.png)
 
-		- Save and quit the project to update boards
+		- Save and quit the project to update boards **File>Save** <CTRL>+S and **File>Quit** <CTRL>+Q
 
 			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/410a55094f25b8dad8bfc0a350c4d99f98e89992/img/save%20and%20quit.png)
   
@@ -149,51 +149,48 @@ The following are a list of **recommendations** for the training session but are
 
 		- Open Arduino and sketch will auto load
     
-		- Install using code link and Library manager 
+		- Install libraries using links from code to automatically open Library manager 
        
 			- Scroll to the top of the code window in Arduino you will see the following
 
 				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/library_list.png)
 
-			- Hold down the <CTRL> key and click on each of the links to search for the library.
+			- Hold down the <CTRL> key and click on each of the links to search for the library
 
-    			- AFter the library is found press INSTALL repeat until all libraries are installed.
+    			- AFter the library is found press INSTALL repeat until all libraries are installed
        - 
 				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/lib_bsec.png)  
    
-		- Save and quit project then restart Arduino and sketch
+		- Save and quit **File>Save** <CTRL>+S and **File>Quit** <CTRL>+Q 
+
+  		- Open Arduino again to update changes 
 
    
 ## Edit code
-*[5 min]*
-*In order for the IoT device to be recognized within the LoRaWAN network you will need to add secret keys to the code these are similar to a username and password*
+*[5 min] In order for the IoT device to be recognized within the LoRaWAN network you will need to add secret keys to the code these are similar to a username and password*
 
-- Edit code and add secrets and keys
+- Edit code and to add LoRaWAN secrets and keys for the IoT
 
-	- Navigate to the code windwo hold the <CTRL> key and press F to search the code
+	- Navigate to the code window hold the <CTRL> key and press F to search the code
 
  	- Type 'deviceEUI' to locate the secrets that require updating
  
   	- Update the 00000s in the code to reflect the secrets for your IoT device
 
-		![notext]()
+		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/secrets.png)
   	
-   	- Save sketch 
+   	-  Save the sketch **File>Save** <CTRL>+S 
   
 ## Compile and build code
-*[5 min]*
-*To run the code we need to verify the code for errors and check that all necessary libraries and components are installed this is referred as building and/or compiling*
+*[5 min] To run the code we need to verify the code for errors and check that all necessary libraries and components are installed this is referred as building and/or compiling*
 
-- Click Verify button to compile and build code 
+- Click the Verify button to compile and build code 
 
-  screenshot of build button
+  	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/compile.png)
 
-- Wait until compile is complete
+- You will see the following if the code has succesffully been Verified
 
-  	- if compile is complete continue on to [Flash code]	
-  	screenshot of good compile
-
-	- if compile fails then see debug
+  	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/compile_success.png)
 
 ## Flash code
 *After the code has completed a successful build/compile we need to upload the program and flash the iot device with the code*
@@ -201,10 +198,14 @@ The following are a list of **recommendations** for the training session but are
 - Verify USB is connected to IoT
 
 - Check that correct board and port is selected
+
+	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/port%20select.png)
   
 - Select the Upload button to flash program the device
 
-- The bottom terminal screen will the status of the Upload
+	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/flash.png)
+
+- The terminal window at the bottom of the screen will update with the Upload results
 
 - The device will automatically start when flash is complete
   
