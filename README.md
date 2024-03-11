@@ -124,15 +124,15 @@ The following are a list of **recommendations** for the training session but are
 
     		- Open board manager
 
-		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/boardmgr-select.png)
+			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/boardmgr-select.png)
 
 		- Search for RAK boards and install the following
 
-    		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK.png)
+			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK.png)
    
    		- After installation completes install the others
-  
-		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK2.png)
+
+   			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/board%20search%20RAK2.png)
 
 		- Select the board for your project
 		*Note: RAK nRF board shown as an example boards will vary based on your project*
@@ -143,32 +143,29 @@ The following are a list of **recommendations** for the training session but are
 
 		- Save and quit the project to update boards
 
-		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/410a55094f25b8dad8bfc0a350c4d99f98e89992/img/save%20and%20quit.png)
+			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/410a55094f25b8dad8bfc0a350c4d99f98e89992/img/save%20and%20quit.png)
   
  	- Update libraries and dependancies
+
+		- Open Arduino and sketch will auto load
     
 		- Automatic using code links (preferred)
        
 			- Scroll to the top of the code window in Arduino you will see the following
-         
-	 		picture of required libraries			
+
+				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/library_list.png)
 
 			- Click each of the links to auto install using the library manager
+
+				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/lib_bsec.png)
      
 			*If all library links are successfully installed continue to Save and reload project below*
      			*If library links fail to install then try manually install with alternate method below*
          
- 		- Manually Search Arduino Library manager (alternate)
-     
-   			- Select title menu library manager
-        
-   			- Search
-        
-			- Install
-     
-	- Save and reload project
    
- 		- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**  
+		- Save and quit project then restart Arduino and sketch
+   
+
    
 ## Edit code
 *[5 min]*
@@ -251,6 +248,15 @@ Adafruit Bluefruit nrf51 library installed via library manager.
   		- SAVE and RELOAD
 			- Save a working copy of the project file to your /USER/ directory from title menu **File>Save As**
 			- Exit and restart Arduino the project should auto load if not use **File>Open** from the tile menu to reload the project
+
+
+    		- Manually Search Arduino Library manager (alternate)
+     
+   			- Select title menu library manager
+        
+   			- Search
+        
+			- Install
 
  
   
