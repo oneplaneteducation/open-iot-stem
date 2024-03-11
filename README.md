@@ -149,22 +149,19 @@ The following are a list of **recommendations** for the training session but are
 
 		- Open Arduino and sketch will auto load
     
-		- Automatic using code links (preferred)
+		- Install using code link and Library manager 
        
 			- Scroll to the top of the code window in Arduino you will see the following
 
 				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/library_list.png)
 
-			- Click each of the links to auto install using the library manager
+			- Hold down the <CTRL> key and click on each of the links to search for the library.
 
-				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/lib_bsec.png)
-     
-			*If all library links are successfully installed continue to Save and reload project below*
-     			*If library links fail to install then try manually install with alternate method below*
-         
+    			- AFter the library is found press INSTALL repeat until all libraries are installed.
+       - 
+				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/lib_bsec.png)  
    
 		- Save and quit project then restart Arduino and sketch
-   
 
    
 ## Edit code
