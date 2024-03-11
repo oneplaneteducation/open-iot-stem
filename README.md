@@ -102,7 +102,7 @@ The following are a list of **recommendations** for the training session but are
 
 	![save as](https://github.com/GrayHatGuy/open-iot-stem/blob/610b9e9982f8e551d0c58b1c6defaf6dc214445e/img/file_saveas_select.png)
 
-  - Confirm the location and save **File>Save** or press <CTRL>+S
+  - Confirm the location and save **File>Save** or press CTRL+S
 
 	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d7d34cd8ccd30538eb157ca6c7fc09528751a928/img/save_as_arduino_location2.png)
     
@@ -122,7 +122,7 @@ The following are a list of **recommendations** for the training session but are
 			```https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json```
        
 
-    		- Open board manager **Tools>Board>Boards Manager** or <CTRL>+<SHIFT>B
+    		- Open board manager **Tools>Board>Boards Manager** or CTRL+SHIFT+B
 
 			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/d146fc328c1f31d01d466f0dbd26be65ca9af403/img/boardmgr-select.png)
 
@@ -141,7 +141,7 @@ The following are a list of **recommendations** for the training session but are
 
 		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/4cbab286550564bde282afb667007109a1679a26/img/selectboard2.png)
 
-		- Save and quit the project to update boards **File>Save** <CTRL>+S and **File>Quit** <CTRL>+Q
+		- Save and quit the project to update boards **File>Save** CTRL+S and **File>Quit** CTRL+Q
 
 			![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/410a55094f25b8dad8bfc0a350c4d99f98e89992/img/save%20and%20quit.png)
   
@@ -161,7 +161,7 @@ The following are a list of **recommendations** for the training session but are
        - 
 				![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/e1e39109b260238441e1cc3684ff06a48de22548/img/lib_bsec.png)  
    
-		- Save and quit **File>Save** <CTRL>+S and **File>Quit** <CTRL>+Q 
+		- Save and quit **File>Save** CTRL+S and **File>Quit** CTRL+Q 
 
   		- Open Arduino again to update changes 
 
@@ -171,7 +171,7 @@ The following are a list of **recommendations** for the training session but are
 
 - Edit code and to add LoRaWAN secrets and keys for the IoT
 
-	- Navigate to the code window hold the <CTRL> key and press F to search the code
+	- Navigate to the code window hold the CTRL key and press F to search the code
 
  	- Type 'deviceEUI' to locate the secrets that require updating
  
@@ -179,7 +179,7 @@ The following are a list of **recommendations** for the training session but are
 
 		![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/secrets.png)
   	
-   	-  Save the sketch **File>Save** <CTRL>+S 
+   	-  Save the sketch **File>Save** CTRL+S 
   
 ## Compile and build code
 *[5 min] To run the code we need to verify the code for errors and check that all necessary libraries and components are installed this is referred as building and/or compiling*
@@ -212,7 +212,7 @@ The following are a list of **recommendations** for the training session but are
 ## Verification
 *[10 min]*
 
-- Open the serial monitor using the menu title bar **Tools>Serial Monitor** or pressing <CTRL>+<SHIFT>+M keys
+- Open the serial monitor using the menu title bar **Tools>Serial Monitor** or pressing CTRL+SHIFT+M keys
 
 - The serial monitor will show the sensor information below the code window
     
