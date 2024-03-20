@@ -6,8 +6,13 @@
    @date 2022-12-02
 
    @copyright Copyright (c) 2022
- **/
 
+Setup instructions:
+   - Verify Arduino is open and use title menu to navigate to: **File>Prefernces>Additional Board Support**
+   - Paste the following into the board support location and click OK to accept
+       	https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_index.json
+         https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json
+**/
 #include <bluefruit.h>       // This one is already installed by the BSP.
 #include "bsec.h"            // Click to install library: http://librarymanager/All#bsec
 #include <U8g2lib.h>         // Click to install library: http://librarymanager/All#u8g2
