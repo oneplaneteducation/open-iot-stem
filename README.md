@@ -200,6 +200,11 @@ The following are a list of **recommendations** for the training session but are
 - Check that correct board and port is selected
 
 	![notext](https://github.com/GrayHatGuy/open-iot-stem/blob/ffa3bece4b30c3b41f0eb4d35138f64f3d5a86ac/img/port%20select.png)
+
+  	*Note In some cases when using Window the IoT is not detected and/or port is not shown. This requires a driver installation to detect the board and port.
+  	Use the following hyperlink to update and install appropriate driver. A restart of Arduino and or a reboot of windows may be required if IoT is still not 	detected after driver install.  You can also check Windows Device Manager to verify if the board is detected and confirm that the driver is installed 		properly*
+
+  		[Update FTDI driver](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers)
   
 - Select the Upload button to flash program the device
 
