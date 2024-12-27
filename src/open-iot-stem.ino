@@ -18,6 +18,7 @@ Setup instructions:
 #include <U8g2lib.h>         // Click to install library: http://librarymanager/All#u8g2
 #include <LoRaWan-RAK4630.h> // Click to install library: http://librarymanager/All#SX126x-Arduino
 #include <SPI.h>
+#include <Adafruit_TinyUSB.h>
 
 // Helper functions declarations
 void checkIaqSensorStatus(void);
